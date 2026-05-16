@@ -83,17 +83,14 @@ const Hero = () => {
         {/* Social */}
         <div className="flex justify-center gap-6 text-2xl text-gray-400">
 
-          <a href="#" className="hover:text-white">
+          <a href="https://github.com/Singhsaumya12" className="hover:text-white">
             <FaGithub />
           </a>
 
-          <a href="#" className="hover:text-white">
+          <a href="https://www.linkedin.com/in/saumya-singh-5a74b2217" className="hover:text-white">
             <FaLinkedin />
           </a>
 
-          <a href="#" className="hover:text-white">
-            <FaCode />
-          </a>
 
         </div>
 
