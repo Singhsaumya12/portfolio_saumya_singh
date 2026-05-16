@@ -33,7 +33,7 @@ const Hero = () => {
           transition={{ delay: 0.3 }}
           className="text-5xl md:text-7xl font-bold mb-4"
         >
-          Hi, I'm <span className="text-blue-400">Saumya</span>
+          Hi, I'm <span className="text-blue-400">Saumya Singh</span>
         </motion.h1>
 
         {/* Role */}
@@ -43,12 +43,12 @@ const Hero = () => {
           transition={{ delay: 0.6 }}
           className="text-xl text-gray-300 mb-6"
         >
-          Full Stack Developer | MERN | Cloud | DevOps
+          Frontend Developer | React.js | Next.js 
         </motion.p>
 
         {/* Tech Stack */}
         <div className="flex justify-center gap-3 mb-8 flex-wrap">
-          {["React", "Node", "MongoDB", "AWS", "Docker"].map((t) => (
+          {["React", "Next", "JS", "Tailwind", "Api Integration"].map((t) => (
             <span
               key={t}
               className="px-3 py-1 text-sm bg-blue-500/10 border border-blue-400/30 rounded-full"
@@ -68,11 +68,15 @@ const Hero = () => {
             View Projects
           </button>
 
-          <button
-            className="px-7 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition"
+          <a
+            href="/resume.pdf"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-7 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition text-white"
           >
             Download CV
-          </button>
+          </a>
 
         </div>
 
